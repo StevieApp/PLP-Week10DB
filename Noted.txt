@@ -1,1 +1,0 @@
-I noted that some fields were accepted as empty and arrays (directors, casts, country) and Movies and TV shows were supported
