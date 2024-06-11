@@ -53,7 +53,7 @@ Only 85 records had a variation of the word 'night'
 
 
 # week 13
-
+```
 SELECT 
     `release_year`,
     COUNT(*) AS `number_of_titles`,
@@ -65,11 +65,11 @@ WHERE
     `description` LIKE '%the%'
 GROUP BY 
     `release_year`;
-
+```
 Only 72 rows fit this criteria
 
 # week 14
-
+```
 SELECT 
     `release_year`,
     COUNT(*) AS `number_of_titles`,
@@ -87,11 +87,11 @@ WHERE
     `description` LIKE '%time%'
 GROUP BY 
     `release_year`;
-
+```
 Only 35 fit this criteria of including 'time' and only 8 were recent and none were new, the rest were old
 
 # week 15
-
+```
 SELECT 
     `release_year`,
     COUNT(*) AS `number_of_titles`,
@@ -105,11 +105,11 @@ WHERE
     `cast` LIKE '%Tracy%'
 GROUP BY 
     `release_year`;
-
+```
 11 rows fit this criteria where the cast has 'Tracy' with a new string speaking about the movie
 
 # Week 16
-
+```
 SELECT 
     `release_year`,
     COUNT(*) AS `number_of_titles`,
@@ -128,7 +128,7 @@ GROUP BY
     `release_year`
 HAVING 
     `cast_including_greta` IS NOT NULL;
-
+```
 1 row fit thid criteria where cast has 'Greta' and description includes 'Lisa'
 
 
