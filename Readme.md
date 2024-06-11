@@ -20,7 +20,6 @@ I noted that some fields were accepted as empty and arrays (directors, casts, co
 
 # Week 10
 
-Seems same as week 10
 Was able to reexport the data in an sql file
 
 # week 11
